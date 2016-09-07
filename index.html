@@ -1,112 +1,195 @@
 <!DOCTYPE html>
 <html>
-    <head>
-    
-    	<title>The Gym</title>
-        <link rel='stylesheet' type='text/css' href='blueberry.css'/>
-        <link rel='stylesheet' type='text/css' href='stylesheet.css'/>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
-        <script src="jquery.blueberry.js"></script>
-        
-<script>$(window).load(function(){
-$('.blueberry').blueberry();
-});</script>
-    
-	</head>
-	<body>
-        <header>
-            <a href="#" id="logo"></a>
-            <nav>
-                <a href="#" id="menu-icon"></a>
-                <ul>
-                    <li><a href="#" class="current">Home</a></li>
-                    <li><a href="#" >Trainers</a></li>
-                    <li><a href="#" >Plans</a></li>
-                    <li><a href="#" >Facility</a></li>
-                    <li><a href="#" >Pricing</a></li>
-                    <li><a href="#" >Contact</a></li>
-                </ul>
-            </nav>
-        </header>
-        <div id="doc">
-            <div id = "content">
-                <div class="blueberry">
-                    <ul class="slides">
-                        <li><img src="https://www.w3newbie.com/wp-content/uploads/inside-gym.png" /></li>
-                        <li><img src="https://www.w3newbie.com/wp-content/uploads/push-ups.png" /></li>
-                        <li><img src="https://www.w3newbie.com/wp-content/uploads/chest-fly.png" /></li>
-                        <li><img src="https://www.w3newbie.com/wp-content/uploads/training.png" /></li>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>The Parallax Website</title>
+	<link href="css/jquery.bxslider.css" rel="stylesheet" />
+	<link href="style.css" rel="stylesheet">
+	<link href="css/nav.css" rel="stylesheet">
+	<link rel="shortcut icon" type="image/png" href="img/w3-favicon.png"/>
+</head>
+<body>
+	<a name="home">
+<!--- Start Navigation -->
+		<script src="js/jquery-1.11.2.min.js"></script>
+		<script src="js/main.js"></script> <!--- For Navigation -->
+<!---ADD NAVIGATION HERE-->
+        <div class="nav-outer">
+        <div class="nav-wrap">
+            <nav class="navigation">
+                <div class="logo"><img src="img/logo.png"></div>
+                <div class='nav' nav-menu-style="yoga">
+                    <ul class="nav-menu">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#reviews">Reviews</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
-            </div>
+            </nav>
         </div>
-        <section>
-            <img src="https://www.w3newbie.com/wp-content/uploads/trainers.png"/>
-            <h1>Best Trainers Arounds!</h1>
-            <p>Our health club, you can exercise anytime of the day or night using your own security-access key/card! That’s 24 hours a day, 7 days a week, 365 days a year. Talk about no more excuses!</p>
-        </section>
-        <section>
-            <img src="https://www.w3newbie.com/wp-content/uploads/location.png"/>
-            <h1>All you need, all you want!</h1>
-            <p>At Anytime Fitness of Perth, you will find amazing amenities--including the best fitness equipment available! Plus, our club has a friendly and supportive atmosphere, we’re super clean too!</p>
-        </section>
-        <section>
-            <img src="https://www.w3newbie.com/wp-content/uploads/check.png"/>
-            <h1>Classes & Personal Training</h1>
-            <p>Our personal trainer are always looking to cater to everyone's needs. We now offer small group training minimum 3 maximum 7 per class. They come are super affordable at $10 per class</p>
-        </section>
-        <div class="clear"></div>
-        <article>
-            <img src="https://www.w3newbie.com/wp-content/uploads/gym-classes.jpg"/>
-        </article>
-        <aside>
-            <h2>Our Group Class Schedule</h2>
-            <ul class="gym">
-                <li><h3>Cycling 8am</h3></li>
-                <li><h3>Power yoga 10am</h3></li>
-                <li><h3>Boot camp 2pm</h3></li>
-                <li><h3>Butt sculpting 4pm</h3></li>
-            </ul>
-        </aside>
-        <div class="clear"></div>
-          <section>
-            <h1>Ladies Section</h1>
-            <img src="https://www.w3newbie.com/wp-content/uploads/ladies-gym.jpg"/>
-            <p>Entrepreneur Magazine ranked us No. 1 "Best in Category" for fitness franchises, and the editors of Inc.</p>
-        </section>
-        <section>
-            <h1>The Gym Floor</h1>
-            <img src="https://www.w3newbie.com/wp-content/uploads/gym-floor.jpg"/>
-            <p>The concept behind Snap Fitness, the world's fastest-growing fitness franchise, is a simple one: compact, 24/7 gyms with state-of-the-art equipment, minimal staffing and no fuss.</p>
-        </section>
-           <section>
-            <h1>Free weights</h1>
-            <img src="https://www.w3newbie.com/wp-content/uploads/free-weights.jpg"/>
-            <p>We now offer fitness solutions to more than half a million members worldwide.</p>
-        </section>
-        <footer>
-            <section>
-                <h3><b> The Gym</b></h3>
-                <p><b>555-555-5555</b><br><br>
-                1700 whatever st<br>
-                Australia, WA 6000<br>
-                TrainerGym@thegym.com</p>                       
-            </section>
-            <section>
-                <h3>Connect With Us!</h3>
-                <ul class="social">
-                <li><a href="#"><img src="https://www.w3newbie.com/wp-content/uploads/facebook1.png"/></a></li>
-                <li><a href="#"><img src="https://www.w3newbie.com/wp-content/uploads/googleplus.png"/></a></li>
-                <li><a href="#"><img src="https://www.w3newbie.com/wp-content/uploads/twitter1.png"/></a></li>
-                <li><a href="#"><img src="https://www.w3newbie.com/wp-content/uploads/youtube1.png"/></a></li>
+        </div>        
+        
+	<div class="nav-clear"></div>
+<!--- End Navigation -->
+	<div class="clearfix"></div>
+<!--- Start Slider -->
+		<script src="js/jquery.bxslider.min.js"></script><!--For Image Slider-->
+		<div class="slide-wrap">
+            <section class="slider">
+                <ul class="slider1">
+                    <li><img src="https://www.w3newbie.com/wp-content/uploads/slider-image-3.png"></li>
+                    <li><img src="https://www.w3newbie.com/wp-content/uploads/slider-image-1.png"></li>
+                    <li><img src="https://www.w3newbie.com/wp-content/uploads/slider-image-2.png"></li>
                 </ul>
+            </section>    
+		</div>
+		<script type="text/javascript">
+			$('.slider1').bxSlider({
+				mode: 'fade',
+				captions: false,
+				auto:true,
+				pager:false,
+				
+			});
+			$('.slider2').bxSlider({
+				pager:false,
+				captions: true,
+				maxSlides: 3,
+				minSlides: 1,
+				slideWidth: 230,
+				slideMargin: 10
+			});
+			$('.slider3').bxSlider({
+				mode: 'fade',
+				captions: false,
+				auto:true,
+				pager:false,
+				controls:false,
+			});
+		</script>
+<!--- End Slider -->
+<a name="about">
+<!---Start Banner Wrapper--->
+    <div id="banner-wrapper">
+        <h1>Welcome To Our Website</h1>
+        <div class="one-half">
+            <h3>Heading Title Section</h3>
+            <p>The PSN status page shows a number of areas being affected, including account management, gaming and social, PlayStation Now, and PlayStation Vue. These issues are affecting users on PS4, PS3, and Vita, as well as other platforms, in the case of Vue. The PlayStation Store is reportedly unaffected, </p>
+        </div>
+        <div class="one-half">
+            <h3>Heading Title Section</h3>
+            <p>The PSN status page shows a number of areas being affected, including account management, gaming and social, PlayStation Now, and PlayStation Vue. These issues are affecting users on PS4, PS3, and Vita, as well as other platforms, in the case of Vue. The PlayStation Store is reportedly unaffected, </p>
+        </div> 
+    </div>
+<!---End Banner Wrapper--->
+<div class="clearfix"></div>
+<!---Start Parallax Section--->
+    <section class="parallax-1">
+        <div class="parallax-inner">
+            <section class="one-third">
+                 <h3>Heading Title</h3>
+                 <p>There's no ETA for when service will resume, but we'll continue to monitor the situation. These issues come one day prior to the PlayStation Meeting, where Sony is expected to announce new PlayStation hardware.</p>
             </section>
-            <section>
-                <img src="https://www.w3newbie.com/wp-content/uploads/weight-lifter.png"/>
+             <section class="one-third">
+                 <h3>Heading Title</h3>
+                 <p>There's no ETA for when service will resume, but we'll continue to monitor the situation. These issues come one day prior to the PlayStation Meeting, where Sony is expected to announce new PlayStation hardware.</p>
             </section>
-        </footer>
-        <footer class="second">
-            <p>Copyright - The Gym, 2014</p>
-        </footer>
-	</body>
+             <section class="one-third">
+                 <h3>Heading Title</h3>
+                 <p>There's no ETA for when service will resume, but we'll continue to monitor the situation. These issues come one day prior to the PlayStation Meeting, where Sony is expected to announce new PlayStation hardware.</p>
+            </section>
+        </div>
+    </section>
+    
+<!---End Parallax Section--->
+<div class="clearfix"></div>
+<!---Start Banner Wrapper--->
+    <section class="left-col">
+        <h1>Heading Title Text</h1>
+        <p>There's no ETA for when service will resume, but we'll continue to monitor the situation. These issues come one day prior to the PlayStation Meeting, where Sony is expected to announce new PlayStation hardware, potentially along with other things.</p>
+        <p>There's no ETA for when service will resume, but we'll continue to monitor the situation. These issues come one day prior to the PlayStation Meeting, where Sony is expected to announce new PlayStation hardware, potentially along with other things.</p>
+        <p>There's no ETA for when service will resume, but we'll continue to monitor the situation. These issues come one day prior to the PlayStation Meeting, where Sony is expected to announce new PlayStation hardware, potentially along with other things.</p>
+    </section>
+    <section class="sidebar">
+        <img src="https://www.w3newbie.com/wp-content/uploads/beach-building.jpg">
+    </section>
+    
+<!---End Banner Wrapper--->
+<div class="clearfix"></div>
+<!---Start Parallax Section--->
+  <section class="parallax-2">
+        <div class="parallax-inner">
+            <section class="one-third">
+                 <h3>Heading Title</h3>
+                 <p>There's no ETA for when service will resume, but we'll continue to monitor the situation. These issues come one day prior to the PlayStation Meeting, where Sony is expected to announce new PlayStation hardware.</p>
+            </section>
+             <section class="one-third">
+                 <h3>Heading Title</h3>
+                 <p>There's no ETA for when service will resume, but we'll continue to monitor the situation. These issues come one day prior to the PlayStation Meeting, where Sony is expected to announce new PlayStation hardware.</p>
+            </section>
+             <section class="one-third">
+                 <h3>Heading Title</h3>
+                 <p>There's no ETA for when service will resume, but we'll continue to monitor the situation. These issues come one day prior to the PlayStation Meeting, where Sony is expected to announce new PlayStation hardware.</p>
+            </section>
+        </div>
+      <a name="contact">
+    </section>
+<!---End Parallax Section--->
+<div class="clearfix"></div>
+<!---Start Banner Wrapper--->
+    <div id="banner-wrapper">
+        <h1>Full Width Heading Title Section</h1>
+        <section class="one-third">
+            <img src="https://www.w3newbie.com/wp-content/uploads/beach-camera.png">
+             <h3>Heading Title Text</h3>
+             <p>There's no ETA for when service will resume, but we'll continue to monitor the situation. These issues come one day prior to the PlayStation Meeting, where Sony is expected to announce new PlayStation hardware.</p>
+        </section>
+         <section class="one-third">
+            <img src="https://www.w3newbie.com/wp-content/uploads/girl-camera.png">
+             <h3>Heading Title Text</h3>
+             <p>There's no ETA for when service will resume, but we'll continue to monitor the situation. These issues come one day prior to the PlayStation Meeting, where Sony is expected to announce new PlayStation hardware.</p>
+        </section>
+         <section class="one-third">
+            <img src="https://www.w3newbie.com/wp-content/uploads/girl-beach.png">
+             <h3>Heading Title Text</h3>
+             <p>There's no ETA for when service will resume, but we'll continue to monitor the situation. These issues come one day prior to the PlayStation Meeting, where Sony is expected to announce new PlayStation hardware.</p>
+        </section>
+    </div>  
+<!---End Banner Wrapper--->
+<div class="clearfix"></div>
+<footer>
+    <p>&copy; The Parallax Website. 2016</p>
+</footer>
+</body>
 </html>
+    
+        
+         
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        
+      
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
